@@ -12,7 +12,7 @@ network, and then train and test it on the MNIST dataset """
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
-# import tensorflow and activate the session
+# import tensorflow and build the session
 import tensorflow as tf
 sess = tf.InteractiveSession()
 
